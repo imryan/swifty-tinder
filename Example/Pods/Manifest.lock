@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Nimble (3.2.0)
+  - Quick (0.9.3)
+  - SwiftyTinder (0.1.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - Nimble (~> 3.0)
+  - Quick (~> 0.8)
+  - SwiftyTinder (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyTinder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
+  SwiftyTinder: 2451fce016dd341d2c622738ce7c73bdec0d8e59
+
+PODFILE CHECKSUM: cdba6ceab2b005cfd2a660a578579aded5780a38
+
+COCOAPODS: 1.0.1

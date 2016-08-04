@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8F978056D020FCF91B93476F /* Pods_SwiftyTinder_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BE57B3660D93C0AE2498E0 /* Pods_SwiftyTinder_Example.framework */; };
+		9438DEBB1D52DD6C001D14FB /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9438DEBA1D52DD6C001D14FB /* ProfileTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		715AA5CFDC4760EC64C59D04 /* Pods-SwiftyTinder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyTinder_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyTinder_Example/Pods-SwiftyTinder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7342B98E8F4E879A85AD3BC0 /* Pods_SwiftyTinder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyTinder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B130517203BA995CF76C9A6 /* SwiftyTinder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyTinder.podspec; path = ../SwiftyTinder.podspec; sourceTree = "<group>"; };
+		9438DEBA1D52DD6C001D14FB /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileTableViewCell.swift; path = Cell/ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		9A3864B90891251414A34F93 /* Pods-SwiftyTinder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyTinder_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyTinder_Example/Pods-SwiftyTinder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AB43D3C796046AE784BAA901 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BABA19996C020B0C749E7853 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyTinder */ = {
 			isa = PBXGroup;
 			children = (
+				9438DEB91D52DD49001D14FB /* Cell */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -146,6 +149,14 @@
 				AB43D3C796046AE784BAA901 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9438DEB91D52DD49001D14FB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9438DEBA1D52DD6C001D14FB /* ProfileTableViewCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 		D8067E04A50B5118070E7E59 /* Pods */ = {
@@ -359,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9438DEBB1D52DD6C001D14FB /* ProfileTableViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

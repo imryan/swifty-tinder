@@ -1,0 +1,27 @@
+{
+  "name": "SwiftyTinder",
+  "version": "0.1.0",
+  "summary": "Swift wrapper for the unofficial Tinder API.",
+  "description": "SwiftyTinder is a (you guessed it) Swift wrapper for the unofficial Tinder API.",
+  "homepage": "https://github.com/imryan/swifty-tinder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ryan Cohen": "notryancohen@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/imryan/swifty-tinder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyTinder/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
+}
